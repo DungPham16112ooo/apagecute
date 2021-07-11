@@ -1,0 +1,144 @@
+/*
+    Theme Name: 
+    Theme Description:........
+    Author: Nguyen Dinh Huynh and
+    Version: 1.0.0
+/*
+
+/*========= Table of content =========
+1.Reset css
+
+
+ */
+/* ========= 1.Reset css ==============*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* ========= 2. Banner ==============*/
+
+#banner{
+  height: 60vh;  
+  max-width: 100%;
+  box-sizing: inherit;
+
+}
+#wrapper{
+    max-width: 100%;
+    background-image: url('../img/apac-homepage-banner1.jpg');
+    height: 100%;
+    padding-bottom: 150px;
+
+}
+#task_btn{
+    margin-top: -50px;
+    margin-bottom: -50px;
+    padding: 25px 0px 25px 0px;
+    z-index: 100;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#task button{
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px -4px 31px 3px rgb(0 0 0 / 21%);
+    
+}
+#task a{
+    color: #000;
+}
+#task .icon{
+    padding-right: 10px;
+
+}
+#task button:hover{
+    background-color: teal;
+}
+#task_bottom{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#task_bottom .task_b{
+    padding-top: 50px;
+    width: 500px;
+}
+#task_bottom .task_b .button_task{
+    padding-bottom: 30px;
+}
+/* ========= 3.Gửi hàng ==============*/
+#gh {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f6;
+}
+#gh_img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+#gh_img img{
+    width: 1000px;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#gh_boxdes{
+    margin-top: -250px;
+    margin-bottom: -70px;
+    padding: 15px 0px 25px 0px;
+    z-index: 100;
+    right: 0px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 200px;
+}
+.box{
+    background-color: #fff;
+    padding-left: 20px;
+    padding-bottom: 5px;
+
+}
+.box .paragraph{
+    margin-bottom: 20px;
+}
+/* ========= 4.Information ==============*/
+.content{
+    margin-top: 70px;
+    border: 2px solid #717174;
+
+}
+.news{
+    width: 80%;
+     padding-left: 40px;
+    /* padding-right: 20px; */ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.news img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.news .paragraph{
+    padding-bottom: 100px;
+}
